@@ -1,0 +1,24 @@
+Packages
+
+パッケージマネージャーは yarn を使ってください。
+TypeScriptは使わないでください。
+Vue 2 系の最新バージョンを使ってください。
+スタイリングは element-ui と tailwindCSS で行います。scss を使ってください。
+アイコンは Material Icon を使います。
+ESLint と Prettier でコードを静的解析・フォーマットします。
+vue-cli vuex vue-routerを利用してください。
+
+Directory structure
+
+以下のようなディレクトリ構造としてください。
+```
+src
+ |- components
+ |- constants // 定数を配置する
+ |- services
+ |- views
+ |- assets // 共通スタイルを配置する
+ |- stores
+ |- mixins
+ |- utils
+ ```
